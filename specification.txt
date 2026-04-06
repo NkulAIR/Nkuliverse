@@ -1,0 +1,30 @@
+HMTL tags used:
+-link
+-header
+-section
+-div
+-button
+-nav
+-h1
+-img
+-ul, li
+-button
+-span
+
+CSS properties:
+- Containers: to create a hero section with with two parts
+- object-fit: to ensure images fit well are responsive
+- Cards and border radius to make them rounded
+- Background-image
+- IDs to directly make changes to an object/tag or create a shape
+- Button states(hover)
+- Google fonts to make the websites typography unique
+- Text styling properties like
+- padding and margin
+- The blur filter
+- @media rule and bootstrap's md class to ensure the website is responsive
+
+
+Javascript and Bootstrap:
+-I chose to used Javascript as a means of navigating through the pages when an event is triggered in this case a click
+and bootstrap to get ready-made features like the navigation bar, carousels, button groups, columns and text formatting features

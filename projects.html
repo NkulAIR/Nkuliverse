@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Climate+Crisis&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/graphik-trial" rel="stylesheet">
+    <script>
+            function goToPage(event)
+            {
+                var trigger = event.srcElement;
+                var page = trigger.innerHTML.toLowerCase()
+                if (page == 'home')
+                {
+                    page = 'index';
+                }
+
+                var url = page + '.html';
+                window.location = url;
+            };
+    </script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Projects</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <nav class="navbar">
+            <a href="index.html"><img src="logo.svg" class="horizontal-logo row justify-content-start" alt="logo"></img></a>
+            <div class = "btn-group" role="group" aria-label="Basic outlined example">
+                <button class="btn btn-outline-primary" onclick="goToPage(event)">Home</button>
+                <button class="btn btn-outline-primary" onclick="goToPage(event)">About</button>
+                <button class="btn btn-outline-primary" onclick ="goToPage(event)">Projects</button>
+                <button class="btn btn-outline-primary" onclick="goToPage(event)">Contact</button>
+            </div>
+            <div class="nav-end">
+              <a href="https://www.behance.net/gallery/140230949/Logofolio-2022?tracking_source=services_modal" target="blank" class="btn btn-primary">View Logofolio</a>
+          </div>
+        </nav>
+    </div>
+  </header>
+  <div class="page-div">
+    <div style="padding: 100px"class="page-div">
+      <div class="row align-items end">
+        <div style="height: 300px; width: 750px;"class="card-group">
+          <div class="card text-bg-dark mb-3">
+            <img class="image-container" src="assets/Monu_snippet.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="gd.html" class="btn text-area">01.<br>GRAPHIC<br>DESIGN</a>
+            </div>
+          </div>
+          <div class="card text-bg-dark mb-3">
+            <img class="image-container"src="assets/WINTL_snippet.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="md.html" class="btn text-area">02.<br>MOTION<br>DESIGN</a>
+            </div>
+          </div>
+          <div class="card text-bg-dark mb-3">
+            <img class="image-container" src="assets/liquid_snippet.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a href="tp.html" class="btn text-area">03.<br>TYPO<br>GRAPHY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
