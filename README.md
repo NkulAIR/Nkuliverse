@@ -16,7 +16,7 @@ Nkuliverse allows visitors to explore multiple creative disciplines, specificall
 
 ## **Tech Stack**
 
-> * **Course Context**: Harvard CS50x — Week 8 (HTML, CSS, JavaScript)  
+> * **Course Context**: Harvard CS50x Week 8 (HTML, CSS, JavaScript)  
 > * **Frontend Markup**: HTML5 (header, nav, section, div, button, h1, img, ul, li, span, link)  
 > * **Styling & UI Framework**: CSS3 (styles.css), Bootstrap (v5.2.3 & v4.5.3)  
 > * **Interactivity & Routing**: Vanilla JavaScript (goToPage event handler), Bootstrap Bundle JS (Carousels)  
