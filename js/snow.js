@@ -5,7 +5,7 @@
   const canvas = document.createElement('canvas');
   canvas.id = 'fire-canvas';
   canvas.style.cssText =
-    'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:-1;';
+  'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;';
   document.body.appendChild(canvas);
 
   const ctx = canvas.getContext('2d');
